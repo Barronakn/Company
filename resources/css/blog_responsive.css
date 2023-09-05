@@ -1,0 +1,60 @@
+@media screen and (max-width:1200px)
+{
+    .blog .section
+    {
+        flex-direction: column;
+    }
+
+    .blog .section .right,
+    .blog .section .right img
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:768px)
+{
+    .blog .section.mx-32
+    {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width:575px)
+{
+    .blog .section.mx-32
+    {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .blog .section .articles
+    {
+        flex-direction: column;
+    }
+
+    .blog .section .articles .left.w-40,
+    .blog .section .articles .left .w-28
+    {
+        width: 100%;
+    }
+
+    .blog .text-2xl
+    {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:425px)
+{
+    .blog .section .right img
+    {
+        height: 100%;
+    }
+
+    .blog .center a
+    {
+        font-size: 14px;
+    }
+}

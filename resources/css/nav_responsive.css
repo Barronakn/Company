@@ -1,0 +1,55 @@
+@media screen and (max-width:820px)
+{
+    nav
+    {
+        display: none;
+    }
+
+    nav ul
+    {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-icon
+    {
+        display: block;
+    }
+
+    .menu
+    {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:560px)
+{
+    .gap-12
+    {
+        gap: 15px;
+    }
+
+    .gap-80
+    {
+        gap: 250px;
+    }
+}
+
+@media screen and (max-width:425px)
+{
+    .gap-80
+    {
+        gap: 150px;
+    }
+}
+
+@media screen and (max-width:320px)
+{
+
+    nav ul.gap-12
+    {
+        gap: 10px;
+    }
+}
+

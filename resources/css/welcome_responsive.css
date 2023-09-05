@@ -1,0 +1,92 @@
+@media screen and (max-width:1024px) {
+    .welcome .section_1 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .px-32 {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .welcome .section_2 {
+        flex-direction: column;
+        justify-content: center;
+        gap: 25px;
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .welcome .section_3 .flex, .welcome .section_4 .flex {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 75%;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width:895px) {
+    .welcome .section_5 .flex {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    header .text-5xl {
+        font-size: 35px;
+    }
+
+    header .text-2xl {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .px-32 {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .welcome .section_5 {
+        flex-direction: column;
+    }
+
+    .welcome .section_5 .flex {
+        width: 100%;
+        padding: 20px;
+    }
+
+}
+
+@media screen and (max-width:670px) {
+
+    .px-32 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    header {
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+    }
+
+    header div:first-child {
+        width: 100%;
+    }
+
+    header div:first-child a, header div:last-child {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .text-3xl, .text-2xl {
+        font-size: 20px;
+    }
+
+    .welcome .section_3 .flex {
+        width: 100%;
+    }
+}

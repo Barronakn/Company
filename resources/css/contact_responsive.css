@@ -1,0 +1,38 @@
+@media screen and (max-width:650px)
+{
+    .contact form
+    {
+        flex-direction: column;
+    }
+
+    .contact .px-32
+    {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .contact .w-100
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:425px)
+{
+    .contact .px-32
+    {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .contact .text-4xl
+    {
+        font-size: 20px;
+    }
+
+    .contact .text-xl
+    {
+        font-size: 14px;
+        width: 10rem;
+    }
+}
