@@ -2,9 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+.content {
     margin: 0 auto;
     max-width: 1700px !important;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    @apply bg-white
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 25px;
+    @apply bg-green-500
 }
 
 .none {
